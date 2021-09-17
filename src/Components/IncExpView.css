@@ -1,0 +1,27 @@
+.inc-exp {
+  display: flex;
+  justify-content: space-around;
+}
+.inc-title,
+.exp-title {
+  color: aqua;
+  font-size: 1.2rem;
+}
+.inc,
+.exp {
+  margin-left: 20px;
+  color: white;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+@media all and (min-width: 600px) {
+  .inc-exp {
+    width: 75%;
+    margin-top: 20px;
+  }
+  .inc-title,
+  .exp-title {
+    font-size: 1.5em;
+  }
+}

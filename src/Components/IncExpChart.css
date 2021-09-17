@@ -1,0 +1,13 @@
+.chart {
+  margin-top: 10px;
+  width: 100%;
+  height: 50%;
+}
+
+@media all and (min-width: 600px) {
+  .chart {
+    margin-top: 40px;
+    width: 75%;
+    height: 50%;
+  }
+}

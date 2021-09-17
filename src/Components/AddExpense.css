@@ -1,0 +1,91 @@
+.AddExpense-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-left: 2px;
+  overflow-x: hidden;
+  width: 100%;
+  justify-content: center;
+}
+.inc-scr {
+  width: 100%;
+}
+.exp-list {
+  padding: 3px 0px;
+  border: 2px solid aqua;
+  width: 90%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 0.6rem;
+  margin: 3px;
+  text-overflow: ellipsis;
+  font-weight: normal;
+}
+
+.exp-field,
+.expamount-field,
+.exp-sub {
+  border-radius: 5px;
+  padding: 5px 0.5px;
+  border: solid 0.5px aqua;
+  background-color: transparent;
+  color: white;
+  font-weight: bolder;
+}
+.exp-field,
+.expamount-field {
+  font-size: 0.7rem;
+}
+.exp-sub {
+  font-size: 1rem;
+  color: white;
+  font-weight: normal;
+}
+.exp-trans {
+  color: aqua;
+  font-size: 0.9rem;
+  font-weight: normal;
+  padding: 0px 25px;
+}
+.exp-del {
+  border: solid 1px aqua;
+  border-radius: 50px;
+  height: 16px;
+}
+
+@media all and (min-width: 600px) {
+  .AddExpense-container {
+    margin-top: -30px;
+    width: 50%;
+    align-items: center;
+  }
+  .exp-scr {
+    display: flex;
+    justify-content: center;
+    width: 70% !important;
+  }
+  .exp-list {
+    font-size: 0.8rem;
+    width: 90%;
+  }
+  .exp-trans {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .exp-sub:hover {
+    font-size: 1rem;
+    background-color: grey;
+    color: aqua;
+  }
+  .exp-field,
+  .expamount-field,
+  .exp-sub {
+    width: 70%;
+  }
+  .exp-del {
+    width: 10%;
+  }
+}

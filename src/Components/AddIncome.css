@@ -1,0 +1,90 @@
+.AddIncome-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  overflow-x: hidden;
+  width: 100%;
+  justify-content: center;
+}
+.inc-scr {
+  width: 100%;
+}
+.inc-list {
+  padding: 3px 0px;
+  border: 2px solid aqua;
+  width: 90%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 0.6rem;
+  margin: 3px;
+  text-overflow: ellipsis;
+  font-weight: normal;
+}
+.inc-field,
+.incamount-field,
+.inc-sub {
+  border-radius: 5px;
+  padding: 5px 0.5px;
+  border: solid 0.5px aqua;
+  background-color: transparent;
+  color: white;
+  font-weight: bolder;
+}
+.inc-field,
+.incamount-field {
+  font-size: 0.7rem;
+}
+.inc-sub {
+  font-size: 1rem;
+  color: white;
+  font-weight: normal;
+}
+
+.inc-trans {
+  color: aqua;
+  font-size: 0.9rem;
+  font-weight: normal;
+  padding: 0px 25px;
+}
+.inc-del {
+  border: solid 1px aqua;
+  border-radius: 50px;
+  height: 16px;
+}
+@media all and (min-width: 600px) {
+  .AddIncome-container {
+    margin-top: -30px;
+    width: 50%;
+    align-items: center;
+  }
+  .inc-scr {
+    display: flex;
+    justify-content: center;
+    width: 70% !important;
+  }
+
+  .inc-list {
+    font-size: 0.8rem;
+    width: 90%;
+  }
+  .inc-trans {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .inc-sub:hover {
+    font-size: 1rem;
+    background-color: grey;
+    color: aqua;
+  }
+  .inc-field,
+  .incamount-field,
+  .inc-sub {
+    width: 70%;
+  }
+  .inc-del {
+    width: 10%;
+  }
+}
