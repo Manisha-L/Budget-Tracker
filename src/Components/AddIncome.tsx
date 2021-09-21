@@ -1,4 +1,4 @@
-import { useState, FC, ChangeEvent } from "react";
+import { useState, ChangeEvent } from "react";
 import "./AddIncome.css";
 import { MdDelete } from "react-icons/md";
 import { Scrollbars } from "react-custom-scrollbars";

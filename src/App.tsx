@@ -22,7 +22,7 @@ const App = (): JSX.Element => {
   );
   return (
     <div className="container">
-      <img src={budgetImage} alt="Budget Image" className="image" />
+      <img src={budgetImage} alt="Budget pic" className="image" />
       <div className="inner-container">
         <h1 className="title">BUDGET TRACKER</h1>
         <div className="budget">
