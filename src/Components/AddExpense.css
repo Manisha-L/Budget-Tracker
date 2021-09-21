@@ -43,6 +43,7 @@
   font-size: 1rem;
   color: white;
   font-weight: normal;
+  cursor: pointer;
 }
 .exp-trans {
   color: aqua;
@@ -54,6 +55,7 @@
   border: solid 1px aqua;
   border-radius: 50px;
   height: 16px;
+  cursor: pointer;
 }
 
 @media all and (min-width: 600px) {

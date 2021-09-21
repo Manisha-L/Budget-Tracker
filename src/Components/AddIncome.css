@@ -41,6 +41,7 @@
   font-size: 1rem;
   color: white;
   font-weight: normal;
+  cursor: pointer;
 }
 
 .inc-trans {
@@ -53,6 +54,7 @@
   border: solid 1px aqua;
   border-radius: 50px;
   height: 16px;
+  cursor: pointer;
 }
 @media all and (min-width: 600px) {
   .AddIncome-container {
